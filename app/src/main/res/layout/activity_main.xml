@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D Studio AI"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etAiPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zadejte popis pro AI (např. 'mechanická ozubená kola')..."
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnGenerateAi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generovat model přes AI"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnLoadStl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Načíst STL soubor"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSaveStl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uložit jako STL" />
+
+</LinearLayout>
